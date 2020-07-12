@@ -11,7 +11,7 @@ namespace Change_Machine
         {
             Console.TreatControlCAsInput = false;
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("Enter Ctrl+C to quit at any time.");
+            Console.WriteLine("Enter Ctrl+C to quit at any time...");
             requestNewInput();
         }
 
